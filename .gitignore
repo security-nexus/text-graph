@@ -1,0 +1,42 @@
+# .NET build artifacts
+/bin/
+/obj/
+
+# Visual Studio / local tooling
+/.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Local CLI/cache folders created during offline builds
+/.dotnet/
+/.dotnet-cli/
+/.dotnet-home/
+/.nuget/
+
+# Local corpus inputs and generated databases
+/normalized-messages.json
+/conversations-*.json
+/*.db
+/*.sqlite
+/*.sqlite3
+
+# Generated run outputs
+/out*/
+
+# Local model payloads and experiments
+/models/candidates/*
+/models/embeddings/*
+/models/classification/*
+
+# Common local model file types if added elsewhere
+*.onnx
+*.gguf
+*.safetensors
+*.bin
+
+# OS noise
+Thumbs.db
+.DS_Store
+gptAnalysis.rar
