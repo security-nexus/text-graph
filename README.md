@@ -4,6 +4,8 @@
 
 It rebuilds branch-aware conversations, writes readable transcripts, persists a SQLite index, emits graph JSON, and produces a navigator UI with topic clusters, category communities, bridge conversations, keyword hotspots, and model-comparison views.
 
+![Navigator preview](navigator.jpg)
+
 The stack is intentionally hybrid:
 
 - A deterministic heuristic layer extracts baseline categories, topics, keywords, and graph edges.
